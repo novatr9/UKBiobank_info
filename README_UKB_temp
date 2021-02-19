@@ -1,0 +1,190 @@
+New UKB structure
+#2021-02-18
+#Katerina Zorina-Lichtenwalter
+
+#in /pl/active/IBG/UKBiobank:
+
+touch README
+
+mkdir GENO PHENO COVAR exclusions
+
+cd PHENO
+
+mkdir Friedman Keller Llewellyn derived
+
+cd derived
+#****************Add original source directories below!!!!!!!!!!!!!:
+ln /pl/active/IBG/UKBiobank/ProposedOrg/Keller/PHENO/derived/README_derived_phenos /pl/active/IBG/UKBiobank/ProposedOrg/Keller/PHENO/derived/tsDepIDs.txt /pl/active/IBG/UKBiobank/ProposedOrg/Keller/PHENO/derived/ukb* .
+ln /pl/active/IBG/UKBiobank/ProposedOrg/Friedman/PHENO/derived/* .
+
+mkdir alcohol_addictions cigarettes_per_day generalized_anxiety_disorder mood_and_trauma_phenotypes risk_taking seen_doc_for_nerves pain blood_markers
+cd alcohol_addictions
+ln /pl/active/IBG/UKBiobank/ProposedOrg/Keller/PHENO/derived/alcohol_addictions/* .
+
+cd cigarettes_per_day
+ln /pl/active/IBG/UKBiobank/ProposedOrg/Keller/PHENO/derived/cigarettes_per_day/* .
+
+cd generalized_anxiety_disorder
+ln /pl/active/IBG/UKBiobank/ProposedOrg/Keller/PHENO/derived/generalized_anxiety_disorder/* .
+
+cd mood_and_trauma_phenotypes
+ln /pl/active/IBG/UKBiobank/ProposedOrg/Keller/PHENO/derived/mood_and_trauma_phenotypes/* .
+
+cd risk_taking
+ln /pl/active/IBG/UKBiobank/ProposedOrg/Keller/PHENO/derived/risk_taking/* .
+
+cd seen_doc_for_nerves
+ln /pl/active/IBG/UKBiobank/ProposedOrg/Keller/PHENO/derived/seen_doc_for_nerves/* .
+
+cd pain
+ln /pl/active/IBG/UKBiobank/ProposedOrg/Keller/PHENO/derived/pain/* .
+
+cd blood_markers
+ln /pl/active/IBG/UKBiobank/ProposedOrg/Keller/PHENO/derived/blood_markers/* .
+
+cd Llewellyn
+ln /pl/active/IBG/UKBiobank/Llewellyn-27623/* .
+(ln: ‘/pl/active/IBG/UKBiobank/Llewellyn-27623/Calls’: hard link not allowed for directory
+ln: failed to create hard link ‘./slurm-6549798.out’ => ‘/pl/active/IBG/UKBiobank/Llewellyn-27623/slurm-6549798.out’: Operation not permitted; but that file just had a CANCELLED error; owned by Richard)
+
+#mkdir Calls (removed, see below)
+
+#cd Calls
+
+#mkdir Zoom20200108
+#cd Zoom20200108
+#ln /pl/active/IBG/UKBiobank/Llewellyn-27623/Calls/Zoom20200108/* .
+#(can't move contents of /pl/active/IBG/UKBiobank/Llewellyn-27623/Calls/Zoom20200108/ asked Jarrod Ellingson to move or remove them. Jarrod removed on 2021-02-19)
+
+cd Friedman
+
+#Ask Andrew R. to move all files from Friedman-11117, Friedman-20707, Friedman-20708, Friedman-20709, Friedman-24203, Friedman-24204, Friedman-24205, Friedman-2479, Friedman-27303, Friedman-27304, Friedman-27305, Friedman-41517 here)
+
+cd ../Keller
+
+mkdir old_baskets
+
+cd old_baskets
+
+mkdir Keller-26230 Keller-28097 Keller-6395 Keller-7241 Keller-41188 Keller-10341
+
+cd Keller-10341
+ln /pl/active/IBG/UKBiobank/Keller-10341/* .
+
+cd ../Keller-6395
+ln /pl/active/IBG/UKBiobank/Keller-1665/phenotypes/ukb6395* /pl/active/IBG/UKBiobank/Keller-1665/phenotypes/colocation.csv /pl/active/IBG/UKBiobank/Keller-1665/phenotypes/fields.ukb .
+
+cd ../Keller-7241
+ln /pl/active/IBG/UKBiobank/Keller-1665/phenotypes/ukb7241* /pl/active/IBG/UKBiobank/Keller-1665/phenotypes/colocation.csv /pl/active/IBG/UKBiobank/Keller-1665/phenotypes/fields.ukb .
+
+cd ../Keller-26230
+ln /pl/active/IBG/UKBiobank/Keller-1665/Keller-16651/ukb26230* /pl/active/IBG/UKBiobank/Keller-1665/Keller-16651/encoding.ukb /pl/active/IBG/UKBiobank/Keller-1665/Keller-16651/fields.ukb .
+(not permitted, asked Jeff to change group attribution from lessempgrp to ibggrp. done)
+
+cd ../Keller-28097
+ln /pl/active/IBG/UKBiobank/Keller-1665/Keller-16651/ukb28097* /pl/active/IBG/UKBiobank/Keller-1665/Keller-16651/encoding.ukb /pl/active/IBG/UKBiobank/Keller-1665/Keller-16651/fields.ukb .
+
+cd ../Keller-41188
+ln /pl/active/IBG/UKBiobank/Keller-1665/phenotypes.all/41188/* .
+
+cd ../..
+ln /pl/active/IBG/UKBiobank/Keller-1665/phenotypes.all/* .
+(ln: ‘/pl/active/IBG/UKBiobank/Keller-1665/phenotypes.all/41188’: hard link not allowed for directory)
+
+cd ../../GENO
+
+mkdir .REFGENO
+
+cd .REFGENO
+mkdir EGAD00010001474 EGAD00010001497
+
+cd EGAD00010001497
+ln /pl/active/IBG/UKBiobank/Release3/EGAD00010001497/* .
+
+cd ../EGAD00010001474/
+ln /pl/active/IBG/UKBiobank/Release3/EGAD00010001474/* .
+
+cd ../..
+
+mkdir raw QCed
+
+cd raw
+cd raw
+mkdir genotyped imputed
+
+cd genotyped
+mkdir vcf fam
+cd vcf
+(ask RC to reassign ownership for all files here from gada5574 to lessem:
+ln /pl/active/IBG/UKBiobank/Keller-1665/genotype/vcf/* .
+)
+cd ..
+ln -s /pl/active/IBG/UKBiobank/GENO/.REFGENO/EGAD00010001497/* .
+
+cd ../fam
+ln /pl/active/IBG/UKBiobank/Release3/ukb*fam .
+
+
+cd ../../imputed
+ln -s /pl/active/IBG/UKBiobank/GENO/.REFGENO/EGAD00010001474/* .
+mkdir sample
+cd sample
+ln /pl/active/IBG/UKBiobank/Release3/ukb*sample .
+mkdir haplotypes
+
+cd haplotypes
+#different people hold ownership [ribo, mmkeller, emsa, luev], ask them to transfer
+ln /pl/active/IBG/UKBiobank/Haplotypes/ukb*bgen .
+#put the corresponding bgen.bgi files elsewhere and softlink here
+**********where to put the scripts from this directory?
+
+cd /pl/active/IBG/UKBiobank/GENO/QCed
+mkdir genotyped imputed
+
+cd imputed
+mkdir white black chinese s_asian all_indiv
+cd white
+#ask Luke to mv /pl/active/IBG/ukb_imputed_QC/* to /pl/active/IBG/UKBiobank/GENO/QCed/imputed/white and erase imputed_QC
+
+cd ../genotyped
+mkdir white black chinese s_asian all_indiv
+cd white
+ln -s /pl/active/IBG/luke/eur/allind/snps/merged_QC/eur.qc.* .
+ln -s /pl/active/IBG/luke/eur/allind/snps/snp_QC.bash /pl/active/IBG/luke/eur/allind/snps/README .
+
+cd /pl/active/IBG/UKBiobank/COVAR
+mkdir all_indiv black chinese s_asian white
+
+cd white
+ln /pl/active/IBG/UKBiobank/ProposedOrg/Keller/COVAR/white/* .
+
+cd /pl/active/IBG/UKBiobank/exclusions
+mkdir dataset_overlapIDs redactedIDs
+
+cd dataset_overlapIDs
+ln /pl/active/IBG/UKBiobank/ProposedOrg/Keller/exclusions/dataset_overlapIDs/* .
+
+cd redactedIDs
+mkdir Friedman Keller
+cd Keller
+ln /pl/active/IBG/UKBiobank/ProposedOrg/Keller/exclusions/redactedIDs/* .
+
+cd Friedman
+ln /pl/active/IBG/UKBiobank/ProposedOrg/Friedman/exclusions/redactedIDs/* .
+
+
+#//////////////////
+In /pl/active/IBG/UKBiobank/Keller-1665/genetics/calls .bed and .bim files are decompressed versions of those in /pl/active/IBG/UKBiobank/Release3/EGAD00010001497. Will be deleted.
+The files to be saved:
+ukb16651_cal_chr1_v2_s488264.fam
+k16651r41188.key
+ukb16651_rel_chr22_s488264.dat
+ukb_snp.md5
+
+In /pl/active/IBG/UKBiobank/Keller-1665/genetics/haplotypes .bgen files are decompressed versions of those in /pl/active/IBG/UKBiobank/Haplotypes. Will be deleted.
+The file to be saved:
+ukb16651_hap_chr1_v2_s487296.sample
+
+#//////////////////
+                                             
+
