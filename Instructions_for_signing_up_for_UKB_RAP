@@ -1,18 +1,28 @@
 # How to sign up for the UKB RAP at IBG 
 
-1.	Create a research analysis platform account
-2.	Verify your account using link sent to your emal 
-3.	Create a UK Biobank Access Management System (AMS) account
-4.	Verify account using link sent to your email 
-5.	Sign in to your AMS account and fill out the following details: 
+Access to UKB RAP (Research Analysis Platform) requires both an account on RAP and an account on UKB AMS (Access Management System).
+If you already have an account on AMS, you can skip the first part of these instructions and proceed directly to the creation of your RAP account.
+
+### To create your AMS account ###
+1.	Go to https://ams.ukbiobank.ac.uk/ams/signup to create your AMS account
+2.	Verify your account using the link sent to your email
+3.	Sign into your AMS account and fill in the following details:
 	    a.	Date of birth 
 	    b.	Gender (Note: prefer not to answer is an option)
 	    c.	Phone number (Note: add international codes. For US, it’s +1) 
 	    d.	Affiliation (‘University of Colorado Boulder’)  
 	    e.	UKB accession number
 	    f.	Up to 5 pubmed ids to your previous studies 
-	    g.	Resume / CV 
-6. UKB will confirm your account within 10 business days
+	    g.	Resume / CV
+4. UKB will confirm and activate your account within 10 business days
+5. Ask Matt or Katerina to add you as a collaborator on our UK Biobank project in AMS
+
+### To create your RAP account ###
+1.	Go to https://ukbiobank.dnanexus.com/register to create your RAP account
+2.	Verify your account using link sent to your email 
+3.	When you sign in, it will prompt you to link your RAP account to your AMS account. Enter the login details for your AMS account.
+	NOTE: Your AMS account must have your date of birth in the account details, or you will not be allowed to proceed with linking the accounts
+
 
 # Resources: 
 - RAP FAQ Page: https://dnanexus.gitbook.io/uk-biobank-rap/frequently-asked-questions
