@@ -1,0 +1,14 @@
+##### Creating a project on UKB RAP #####
+
+We do not yet have any shared lab projects or billing information set up on RAP - for now you will need to create your own project, and the project will use your 40 GBP starting balance as a new user of UKB RAP.
+
+To create a project:
+1. Access the projects page at https://ukbiobank.dnanexus.com/panx/projects or by going to the "Projects" menu in the top-left corner and selecting "All Projects".
+2. In the top right corner, click the teal button that says "+New Project"
+3. Enter the following information:
+  a. A name for the project
+  b. The ID number of your approved UK Biobank project (if you are under Matt's UKB project, the ID is 16651)
+    NOTE: Your UK Biobank AMS account must be listed as an approved collaborator on Matt's UKB project (talk to Matt or Katerina if you need to be approved) and must be linked to your RAP account before you can receive data under the project ID. See our documentation on RAP signup instructions for more details on linking your accounts.
+  c. Select data types to dispense (dispense means "make available under your RAP project"). "Tabular data" means phenotype data, "bulk data" means larger data such as genotype and imaging data.
+  d. Under "billed to", set your personal RAP billing account, which has a starting balance of 40 GBP. This document will eventually be updated with information about a billing account at the lab/PI level once these have been set up, but they currently do not exist, so for now we are all just experimenting with the system using our personal starting balances.
+4. Your project will be created immediately, but you may have to wait several hours for data to be dispensed (even if you have not requested bulk data). You can check the status of your project under the "All Projects" page from step 1, when data has been dispensed your project will show a status of "Ready".                                                                                                 
