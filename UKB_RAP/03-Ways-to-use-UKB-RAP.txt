@@ -31,4 +31,4 @@ You will need to specify a project to run your RStudio or JupyterLab session und
 
 ##### Using RAP via the command line #####
 
-(FIXWE: Will be added as soon as I figure it out)
+(FIXME: Will be added as soon as I figure it out)
