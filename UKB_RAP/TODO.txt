@@ -1,0 +1,13 @@
+Things that still need articles created:
+* Costs and billing
+* Copying data directly from RC to RAP
+* Saving data at the end of jobs
+* Data storage and organization on RAP
+* RStudio on RAP
+* Bulk jobs on RAP
+
+Work-in-progress:
+02-Getting-started-with-a-RAP-project.txt: Still needs information about managing project roles
+03-Ways-to-use-UKB-RAP.txt: Still needs information about command-line options
+04-Accessing-phenotype-data-on-RAP.txt: Most of it still needs to be written
+05-Accessing-genotypes-and-other-bulk-data.txt: Most of it still needs to be written
