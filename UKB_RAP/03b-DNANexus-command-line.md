@@ -1,4 +1,6 @@
-Instructions for installing the command line tools are at the bottom of this document, after the instructions for using them.
+UKB RAP is based on the DNANexus platform. You can use the DNANexus command line utilities to perform many tasks in UKB RAP.
+
+This page has instructions for *using* the command line tools. Before you use them, you will need to install them as described on the page [Installing the command line tools](Installing-the-command-line-tools.md).
 
 ### Useful documentation for the command line tools
 
