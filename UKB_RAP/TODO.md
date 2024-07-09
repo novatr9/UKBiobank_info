@@ -4,6 +4,7 @@ Things that still need articles created:
 * Bulk jobs on RAP
 * Apps on RAP
 * Selecting an environment and options for your job
+* Using git to sync code to/from RAP
 
 Articles that need things added:
 * [Instructions for signing up for UKB RAP](01-Instructions-for-signing-up-for-UKB-RAP.md): Ask Pamela what the "UK Biobank accession number" thing means
