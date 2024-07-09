@@ -5,6 +5,7 @@ instructions for using them.
 
 Quickstart guide: https://documentation.dnanexus.com/getting-started/cli-quickstart
 Full command reference: https://documentation.dnanexus.com/user/helpstrings-of-sdk-command-line-utilities
+Type "dx help all" to see one-line summaries of all available dx commands.
 
 ##### Signing in using the command line tools #####
 
