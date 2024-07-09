@@ -2,4 +2,8 @@ This directory contains documentation on using the UK Biobank Research Analysis 
 
 Files with numbers at the beginning are essential for getting started using UKB RAP and should be read in order.
 
-Files without numbers at the beginning cover tasks that may be of interest to some (or many) users, but that are not essential for getting started on RAP.
+Files without numbers at the beginning cover tasks that may be of interest to some (or many) users, but that are
+not essential for getting started on RAP.
+
+If you are adding documentation in this directory, please be nice to Windows users and include a .txt extension
+on the end of the file name.
