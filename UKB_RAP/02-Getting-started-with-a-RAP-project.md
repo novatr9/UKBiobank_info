@@ -8,9 +8,14 @@ A UK Biobank project and a RAP project are two different things. A UK Biobank pr
 
 If you are collaborating with someone who has already set up a UKB RAP project for your collaboration, you do not need to create your own RAP project.
 
-Please be aware that until we have billing accounts set up for PIs/labs, anything you run will be billed to the project owner's personal UKB RAP balance, so please make sure that they are OK with you sharing their RAP project.
+Please be aware that until we have billing accounts set up for PIs/labs, anything you run will be billed to the project owner's personal UKB RAP balance, so please make sure that they are OK with what you are running.
 
-There are three roles possible on RAP projects - "Contributor" "Admin" and "Member". (**FIXME:** I have not yet figured out how these are set/managed, it may be through UK Biobank AMS or it may just not show anything yet since I'm the only active user. Please update this documentation if you figure it out before I do.)
+There are four possible access levels on RAP projects:
+* "View" allows read-only access to project files
+* "Upload" access allows adding and modifying files
+* "Contribute" access allows full access to files and allows a user to run jobs under the project
+* "Admin" access allows a user to manage a project and perform tasks such as adding and removing other users' access.
+Your collaborator can add you to their project using either the web interface or the command line interface.
 
 ### Creating a project on UKB RAP
 
