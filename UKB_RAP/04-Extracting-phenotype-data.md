@@ -8,5 +8,7 @@ There three main ways to access phenotype data on RAP:
 3. Via Apache Spark, either directly or through relevant tools in a language such as Python (this option is mostly for advanced users)
 
 ### Exporting data to a .csv/.tsv file
+FIXME: Add this
 
 ### Using data that has been exported to a .csv/.tsv file
+FIXME: Add this
