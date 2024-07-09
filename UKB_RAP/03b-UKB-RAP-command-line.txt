@@ -39,12 +39,15 @@ You can also use the command "dx select --level VIEW" to see projects you have r
 Once you have selected a project as your current project, you can use "dx" with basic Linux commands
 ("dx ls" "dx cd" "dx mv" etc.) to manage files within your project.
 
-To copy data between two projects you have access to, you can include the name of the non-active project
-in the path given to the "dx cp" command, adding a : before the / to indicate that you are referring to
-another project (and not a directory with that name within your project). For example, the command:
-    dx cp "Apollo Reference Data - AWS UKB RAP (London):/gnomAD Annotation Data/" gnomad
-Would copy gnomAD annotation data from the public project "Apollo Reference Data - AWS UKB RAP (London)" to
-a directory called "gnomad" in your current active project.
+To copy data between two projects you have access to:
+   You can include the name of the non-active project in the path given to the "dx cp" command, adding
+   a : before the / to indicate that you are referring to another project (and not a directory with that
+   name within your project). For example, the command:
+      dx cp "Apollo Reference Data - AWS UKB RAP (London):/gnomAD Annotation Data/" gnomad
+   would copy gnomAD annotation data from the public project "Apollo Reference Data - AWS UKB RAP (London)"
+   to a directory called "gnomad" in your current active project.
+     NOTE: You can only do this between two projects in the same AWS region. For UKB RAP, this means you
+     can only copy data to/from other projects with region (London). All UKB RAP projects have region (London).
 
 ##### Using the command-line tools to run interactive sessions #####
 
