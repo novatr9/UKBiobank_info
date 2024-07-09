@@ -22,12 +22,7 @@ To create a RAP project:
 3. Enter the following information:
    * A name for the project
    * The ID number of your approved UK Biobank project (if you are under Matt's UKB project, the ID is 16651)<br/>
-     **NOTE:** Your UK Biobank AMS account must be listed as an approved collaborator on a UKB project (talk to
-     Matt or Katerina if you need to be approved on Matt's project) and must be linked to your RAP account
-     before you can receive data under the project ID. See our documentation on RAP signup instructions
-     for more details on linking your accounts.
+     **NOTE:** Your UK Biobank AMS account must be listed as an approved collaborator on a UKB project (talk to Matt or Katerina if you need to be approved on Matt's project) and must be linked to your RAP account before you can receive data under the project ID. See our documentation on RAP signup instructions for more details on linking your accounts.
    * Select data types to dispense (dispense means "make available under your RAP project"). "Tabular data" means phenotype data, "bulk data" means larger data such as genotype and imaging data.
    * Under "billed to", set your personal RAP billing account, which has a starting balance of 40 GBP. (This document will eventually be updated with information about a billing account at the lab/PI level once these exist, but for now we are all just experimenting with the system using our personal starting balances.)
-4. Your project will be created immediately, but you may have to wait several hours for data to be dispensed (even
-   if you have not requested bulk data). You can check the status of your project under the "All Projects" page from
-   step 1, when data has been dispensed your project will show a status of "Ready".                                                                                                 
+4. Your project will be created immediately, but you may have to wait several hours for data to be dispensed (even if you have not requested bulk data). You can check the status of your project under the "All Projects" page from step 1, when data has been dispensed your project will show a status of "Ready".                                                                                                 
