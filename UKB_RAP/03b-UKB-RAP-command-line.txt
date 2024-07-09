@@ -11,13 +11,17 @@ Type "dx help all" to see one-line summaries of all available dx commands.
 
 To sign in, run the command "dx login", and enter the same username and password you first created when
 registering your RAP/DNANexus account. You will not see any change in your command prompt (the way you
-would when you ssh to something), the only thing that is changed by logging in is that you can now run
-other "dx" commands and have them access things your account is able to access.
+would when you ssh to something) because you have not established a connection to a remote system. The
+only thing that happens when you log in is that you have authenticated yourself, so now when you run
+other "dx" commands (from your local system) they will have permission to establish as-needed connections
+to RAP/DNANexus in order to carry out your commands.
 
 When you log in, you will be shown a list of projects you have access to (if there are any), and it may
 automatically set one of them as your current project.
 
-If you want to sign out at the end of a session, you can run the command "dx logout".
+If you want to sign out when you are finished, you can run the command "dx logout". If you are the
+only person who uses your computer, you can choose to stay authenticated for up to 30 days instead of
+logging out.
 
 ##### Viewing and selecting projects with the command line tools #####
 
@@ -30,11 +34,17 @@ If you only have access to one project, "dx select" will set that as your active
 You can also use the command "dx select --level VIEW" to see projects you have read-only access to, or
 "dx select --public" to see projects that are publicly available (such as reference datasets).
 
-##### Using the command-line tools to manage projects/data #####
-FIXME: Add this
+##### Using the command-line tools to manage data #####
 
-##### Using the command-line tools to transfer data #####
-FIXME: Add this
+Once you have selected a project as your current project, you can use "dx" with basic Linux commands
+("dx ls" "dx cd" "dx mv" etc.) to manage files within your project.
+
+To copy data between two projects you have access to, you can include the name of the non-active project
+in the path given to the "dx cp" command, adding a : before the / to indicate that you are referring to
+another project (and not a directory with that name within your project). For example, the command:
+    dx cp "Apollo Reference Data - AWS UKB RAP (London):/gnomAD Annotation Data/" gnomad
+Would copy gnomAD annotation data from the public project "Apollo Reference Data - AWS UKB RAP (London)" to
+a directory called "gnomad" in your current active project.
 
 ##### Using the command-line tools to run interactive sessions #####
 
