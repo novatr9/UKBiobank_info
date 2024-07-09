@@ -47,7 +47,15 @@ To copy data between two projects you have access to:
    would copy gnomAD annotation data from the public project "Apollo Reference Data - AWS UKB RAP (London)"
    to a directory called "gnomad" in your current active project.
      NOTE: You can only do this between two projects in the same AWS region. For UKB RAP, this means you
-     can only copy data to/from other projects with region (London). All UKB RAP projects have region (London).
+     can only copy data to/from other projects with region (London). All UKB RAP projects have region (London),
+     even though they do not say (London) in their name.
+
+To copy a small amount of data from your local system to your current active project, you can use the
+"dx upload" command. To copy a larger amount of data, you will need to install and use the Upload Agent.
+(Details for the Upload Agent: https://documentation.dnanexus.com/user/objects/uploading-and-downloading-files/batch/upload-agent )
+
+To copy data from your current active project to your local system, you can use the "dx download" command.
+Please do not attempt to download individual-level data about UKB participants, this is not allowed.
 
 ##### Using the command-line tools to run interactive sessions #####
 
