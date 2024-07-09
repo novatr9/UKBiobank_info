@@ -37,4 +37,14 @@ To copy a small amount of data from your local system to your current active pro
 To copy data from your current active project to your local system, you can use the `dx download` command. **Please do not attempt to download individual-level data about UKB participants, this is not allowed.**
 
 ### Using the command line tools to manage projects
-FIXME: Add this
+
+In theory, you can create a new project with `dx new project` (see `dx help new project` for details). (**FIXME:** I have not yet figured out how to make this actually work, eg. how to make it a project under UKB RAP instead of a general DNANexus project and how to dispense UKB data to it.)
+
+You can delete a project with `dx rmproject`
+
+You can change many options for your project such as billing and permissions with `dx update project` (see `dx help update project` for details)
+
+You can add users to your project with `dx invite username project permlevel`, where username is their DNANexus username, project is the name of the project, and permlevel is VIEW (read-only access), UPLOAD (upload-only access), CONTRIBUTE (read/write access and the ability to run jobs), or ADMINISTER (full admin access). You can remove users with `dx uninvite username project`.
+
+> [!CAUTION]
+> Right now, everyone has a personal billing account with a 40 GBP starting balance of credits for running/storing things on RAP, we do not have lab/PI billing set up yet. If you add someone to your project, things they run under the project will be billed to ***your*** account, not theirs. Please be careful not to share your project with too many people and use up your 40 GBP starting balance, we do not know when we will have access to other billing options.
