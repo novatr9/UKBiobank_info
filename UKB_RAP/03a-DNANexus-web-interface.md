@@ -20,7 +20,7 @@ To run apps, go to the "Manage" tab and look in the top right corner for a butto
 
 The "Monitor" tab shows your current, pending, and completed jobs on RAP. This tab also gives you the ability to check job logs or terminate pending/running jobs.
 
-### Managing project access/members using the web interface
+### Managing your project using the web interface
 
 The "Settings" tab allows you to manage project access and billing. This is also the tab you would use if you needed to dispense (make available) additional UKB data for your project that was not included during project creation.
 
@@ -30,4 +30,4 @@ To add a member to your project:
 1. Go to the "Settings" tab
 2. Click the "Share Project" button, which is a small round button with a picture of two people on it.
    * If you have trouble finding it, it is next to the words "Access: Admin", below the bell icon for notifications, and below the colorful circle with a letter in it that lets you access your profile.
-3. Enter the DNANexus username or email address of the person you want to add, and then set the level of access to the project that you want to give them.
+3. Enter the DNANexus username or email address of the person you want to add, and then choose the level of project access that you want to give them.
