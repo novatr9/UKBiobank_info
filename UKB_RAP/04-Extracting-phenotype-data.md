@@ -1,4 +1,4 @@
-This article assumes you already have a RAP project and that your project has UKB data dispensed to it. If you have not yet completed these steps, please refer to the article "02-Getting-started-with-a-RAP-project.txt" first.
+This article assumes you already have a RAP project and that your project has UKB data dispensed to it. If you have not yet completed these steps, please refer to the article [Getting started with a RAP project](02-Getting-started-with-a-RAP-project.md) first.
 
 There three main ways to access phenotype data on RAP:
 1. Exporting relevant data fields to a .csv/.tsv file, then either:
