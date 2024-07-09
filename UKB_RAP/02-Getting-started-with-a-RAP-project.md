@@ -6,9 +6,9 @@ A UK Biobank project and a RAP project are two different things. A UK Biobank pr
 
 ### Joining a project on UKB RAP
 
-If you are collaborating with someone who has already set up a UKB RAP project for your collaboration, you do not need to create your own RAP project. The project owner can add you to their project [via the web interface](03a-DNANexus-web-interface.md#managing-your-project-using-the-web-interface) or [via the command line](03b-DNANexus-command-line.md#managing-your-project-using-the-command-line-tools).
+If you are collaborating with someone who has already set up a UKB RAP project for your collaboration, you do not need to create your own RAP project. The project owner can add you to their project [via the web interface](03a-DNANexus-web-interface.md#managing-your-project-using-the-web-interface) or [via the command line](03b-DNANexus-command-line.md#using-the-command-line-tools-to-manage-projects).
 
-> [!NOTE]
+> [!CAUTION]
 > Until we have billing accounts set up for PIs/labs, anything you run will be billed to the project owner's personal UKB RAP balance, so please make sure that they are OK with what you are running. Everyone has 40 GBP of starting credits for learning to use UKB RAP, but things you run under someone else's project will be billed to their starting credits, not yours.
 
 ### Creating a project on UKB RAP
