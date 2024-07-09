@@ -1,4 +1,4 @@
-To access the UKB RAP web interface, log in at https://ukbiobank.dnanexus.com/
+UKB RAP is based on the DNANexus platform. To access the UKB RAP web interface, log in at https://ukbiobank.dnanexus.com/
 
 When you log in, you will see a list of all of your RAP projects on the first page. Click the name of the project you would like to work under to open the details page for that project. If you do not see any projects listed, please refer to the article [Getting started with a RAP project](02-Getting-started-with-a-RAP-project.md).
 
