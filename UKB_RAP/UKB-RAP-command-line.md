@@ -24,7 +24,6 @@ You can also use the command `dx select --level VIEW` to see projects you have r
 
 Once you have selected a project as your current project, you can use "dx" with basic Linux commands (`dx ls` `dx cd` `dx mv` etc.) to manage files within your project.
 
-
 To copy data between two projects you have access to, you can include the name of the non-active project in the path given to the `dx cp` command, adding a `:` before the `/` to indicate that you are referring to another project (and not a directory with that name within your project).<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For example: `dx cp "Apollo Reference Data - AWS UKB RAP (London):/gnomAD Annotation Data/" gnomad`<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;would copy gnomAD annotation data from the public project "Apollo Reference Data - AWS UKB RAP (London)"<br/>
@@ -35,11 +34,10 @@ To copy a small amount of data from your local system to your current active pro
 
 To copy data from your current active project to your local system, you can use the `dx download` command. **Please do not attempt to download individual-level data about UKB participants, this is not allowed.**
 
-### Using the command line tools to run interactive sessions
+### Using the command line tools to manage projects
+FIXME: Add this
 
-Some of the apps available on RAP/DNANexus (such as Cloud Workstation and Swiss Army Knife) connect you to a system with a Linux command line. These apps can be launched and accessed either through the web interface or via the "dx" command-line tools on your local system.
-
-### Installing the command-line tools on Mac OS X
+### Installing the command line tools on Mac OS X
 
 In order to install the DNANexus command-line tools, you must have Python3 installed (this might already be installed by default).
 
@@ -61,10 +59,10 @@ You may also get this warning message whenever you run a "dx" command:
 
 This message appears to be harmless (everything still works), but since it's annoying you can get rid of it by running `pip3 uninstall urllib3` and then `pip3 install urllib3==1.26.7`
 
-### Installing the command-line tools on Linux
+### Installing the command line tools on Linux
 
 FIXME: Add this
 
-### Installing the command-line tools on Windows
+### Installing the command line tools on Windows
 
 FIXME: Add this
