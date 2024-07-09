@@ -31,3 +31,6 @@ To add a member to your project:
 2. Click the "Share Project" button, which is a small round button with a picture of two people on it.
    * If you have trouble finding it, it is next to the words "Access: Admin", below the bell icon for notifications, and below the colorful circle with a letter in it that lets you access your profile.
 3. Enter the DNANexus username or email address of the person you want to add, and then choose the level of project access that you want to give them.
+
+> [!CAUTION]
+> Right now, everyone has a personal billing account with a 40 GBP starting balance of credits for running/storing things on RAP, we do not have lab/PI billing set up yet. If you add someone to your project, things they run under the project will be billed to ***your*** account, not theirs. Please be careful not to share your project with too many people and use up your 40 GBP starting balance, we do not know when we will have access to other billing options.
