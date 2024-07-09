@@ -56,6 +56,11 @@ To add this directory to your path:
   * Run the command `source ~/.zshrc` to activate the change you made
 3. If the result of step 1 says "/bin/bash", follow the instructions in step 2, but instead of using the file ~/.zshrc use either ~/.bash_profile (if you use MacOS's default Terminal.app), or ~/.bashrc (if you use almost any other terminal besides Terminal.app).
 
+You may also get this warning message whenever you run a "dx" command:
+> /Users/yourusername/Library/Python/3.9/lib/python/site-packages/urllib3/\__init__.py:34: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'.
+
+This message appears to be harmless (everything still works), but since it's annoying you can get rid of it by running `pip3 uninstall urllib3` and then `pip3 install urllib3==1.26.7`
+
 ### Installing the command-line tools on Linux
 
 FIXME: Add this
