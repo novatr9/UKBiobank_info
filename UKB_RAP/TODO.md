@@ -14,7 +14,7 @@ Articles that need things added:
 
 Articles that barely exist and still need to be written:
 * [Extracting phenotype data](04-Extracting-phenotype-data.md)
-* [Acessing data and saving results](05-Accessing-data-and-saving-results.md)
+* [Accessing data and saving results](05-Accessing-data-and-saving-results.md)
 * [Interactive Linux sessions](Interactive-Linux-sessions.md)
 
 Other things:
