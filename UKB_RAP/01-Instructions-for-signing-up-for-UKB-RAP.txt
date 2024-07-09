@@ -18,7 +18,7 @@ part of these instructions and proceed directly to the creation of your RAP acco
 4. UKB will confirm and activate your account within 10 business days
 5. Ask Matt or Katerina to add you as a collaborator on our UK Biobank project in AMS
    NOTE: You will be able to link your AMS and RAP accounts before completing step 5, but you will not
-   be ableto access any data on RAP until this step is complete.
+   be able to access any data on RAP until this step is complete.
 
 ### To create your RAP account ###
 1.	Go to https://ukbiobank.dnanexus.com/register to create your RAP account
