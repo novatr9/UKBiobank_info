@@ -18,3 +18,4 @@ Articles that barely exist and still need to be written:
 
 Other things:
 * Both the web and command line instructions for adding users to your project need a warning added that anything users run will be billed to your starting credits, not theirs.
+* Go hunting for broken links left over after file/document section renaming
