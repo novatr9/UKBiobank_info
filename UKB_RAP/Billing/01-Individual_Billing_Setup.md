@@ -1,7 +1,7 @@
 This file instructs a PI on how to set up single-payer billing for projects on UKB RAP. 
 
 # Instructions: 
-0. Create an AMS and RAP accounts (separate processes). Please check 
+0. Create an AMS and RAP accounts (separate processes). Please see _UKB_RAP/01-Instructions-for-signing-up-for-UKB-RAP.md_ for instructions on starting on UKB RAP.  
 1. Click on your profile/avatar on the top right 
 2. Click billing from the dropdown 
 3. Click the account you'd like to set up billing for and select "Start setup"
