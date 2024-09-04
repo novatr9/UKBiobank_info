@@ -42,8 +42,8 @@ p22189
 ```
 
 The general format of a variable name is either `p12345` (for variables without instances) or `p12345_i0` (for variables with instances). An instance is a repeat measurement of the variable at a later UK Biobank visit - all participants have instance 0 (baseline/intake) some also have other instances for things like an MRI visit or a follow-up visit.
-* If a variable has instances, you must specify each instance that you want, eg. `p680_i0` `p680_i1` etc. Just specifying `p680` without an instance will not work.
-* If a variable's only instance is baseline/intake, you must write its name without `_i0` - for these variables, writing `p31_i0` will cause your job to fail.
+* If a variable has instances, you must specify each instance that you want, eg. `p680_i0` `p680_i1` etc. Just specifying `p680` will cause your data extraction to fail.
+* If a variable's only instance is baseline/intake, you must write its name without `_i0` - for these variables, writing `p31_i0` will cause your data extraction to fail.
 
 There are at least two ways to find variable IDs for making your list:
 * Get the variable IDs from the UK Biobank data showcase. You will need to add "p" to the beginning of the numeric variable IDs you find there. For variables with instances, you will need to add instance on the end, eg. `p680_i0`.
