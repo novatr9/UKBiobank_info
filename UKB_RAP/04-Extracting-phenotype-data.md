@@ -15,7 +15,7 @@ FIXME: Add this
    * The record ID will look like "record-abc123" where abc123 is a long string of random characters. To find the record ID for your desired dataset, run `dx find data --class record`
 2. Make a list of fields/variables that you want to extract. See the bottom of this page for details on how to do that.
 3. Upload your list of variables to extract back to UKB RAP with the command `dx upload extract-vars.txt` where extract-vars.txt is whatever name you gave your list of variables to extract.
-4. FIXME: ***THESE INSTRUCTIONS ARE CURRENTLY WRONG, DO NOT USE THEM.*** Run a Table Exporter job using the following command: `dx run table-exporter -idataset_or_cohort_or_dashboard=project-abc123:record-abc123 -ioutput=your_output_file_with_no_suffix -ioutput_format=TSV -icoding_option=RAW -iheader_style=UKB-FORMAT -ientity=participant -ifield_names_file_txt=extract-vars.txt`
+4. ***THIS COMMAND IS CURRENTLY WRONG, it doesn't "upload" your results back to your project. I still need to figure out how to fix that.*** Run a Table Exporter job using the following command: `dx run table-exporter -idataset_or_cohort_or_dashboard=project-abc123:record-abc123 -ioutput=your_output_file_with_no_suffix -ioutput_format=TSV -icoding_option=RAW -iheader_style=UKB-FORMAT -ientity=participant -ifield_names_file_txt=extract-vars.txt`
    * FIXME: Add dx run options to run the job with the cheapest possible instance and priority
 
 ### Creating and using a "View"
@@ -26,17 +26,15 @@ FIXME: Add these
 
 ### Making a list of fields/variables to extract
 
-FIXME: ***THESE INSTRUCTIONS ARE CURRENTLY WRONG, DO NOT USE THEM.***
-
 Several of the methods above use a list of variables to extract. This list of variables should be a file with one variable per row, like this:
 ```
 eid
-31
-6152
-22189
+p31
+p6152_i0
+p22189
 ```
 
-If you want to specify a particular instance number of a variable (instance numbers refers to visits, with 0 being the baseline/intake appointment), you can write the variable name as 12345-0.
+The general format of a variable name is either `p12345` (for variables without instances) or `p12345_i0` (for variables with instances). An instance is a repeat measurement of the variable at a later UK Biobank visit - all participants have instance 0 (baseline/intake) some also have other instances for things like an MRI visit or a follow-up visit. If a variable does not have instances, you must write its name without _i0. If a variable *does* have instances, you must specify each instance that you want, eg. `p6152_i0` `p6152_i1` etc. Just specifying `p6152` without an instance will not work.
 
 There are at least three ways to find variable IDs for making your list:
 * Get the variable IDs from the UK Biobank data showcase. You will need to add "p" to the beginning of the numeric variable IDs you find there.
