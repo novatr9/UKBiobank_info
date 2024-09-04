@@ -49,3 +49,4 @@ There are at least two ways to find variable IDs for making your list:
 * Get the variable IDs from the UK Biobank data showcase. You will need to add "p" to the beginning of the numeric variable IDs you find there. For variables with instances, you will need to add instance on the end, eg. `p680_i0`.
 * Get variable information for your dataset using the command `dx extract_dataset project-abc123:record-abc123 --list-fields --entities participant > field-descrip.txt`. This file will contain IDs like `participant.p680_i0` - just remove the `participant.` part from the beginning and they'll be ready to add to your list.
   * This command is a good way to check which variables need an instance in their names.
+  * See the command-line instructions above for commands to find the values to use to replace "abc123".
