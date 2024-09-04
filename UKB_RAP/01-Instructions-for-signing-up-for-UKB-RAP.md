@@ -12,7 +12,7 @@ Access to UKB RAP (Research Analysis Platform) requires both an account on RAP a
    * Up to 5 pubmed ids to your previous studies 
    * Resume / CV
 4. UKB will confirm and activate your account within 10 business days
-5. Ask Matt or Katerina to add you as a collaborator on our UK Biobank project in AMS<br/>
+5. Ask the person in charge to add you as a collaborator on our UK Biobank project in AMS<br/>
    **NOTE:** You will be able to link your AMS and RAP accounts before completing step 5, but you will not be able to access any data on RAP until this step is complete.
 
 ### To create your RAP account
