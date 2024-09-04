@@ -23,16 +23,16 @@ This message appears to be harmless (everything still works), but since it's ann
 ### Installing the command line tools on Linux
 
 To do a local install of the command line tools under your account on RC:
-1. Connect to an interactive session on a Blanca node, or use the command `acompile` to access an interactive session on an Alpine node. ***Step 2 will not work if run from a login node***
+1. Connect to an interactive session on a Blanca or Alpine node. ***You MUST use an interactive session, step 2 will not work on a login node.***
 2. Run `pip3 install --user dxpy`
-3. Use the command `find ~/.local/lib/ -wholename '*dxpy/scripts' -print` to find the location the commands have been installed to
-4. Copy the location from step 3, and edit the file `~/.bashrc` to add it to your PATH. If there's already a line in your .bashrc that sets PATH, add the new location to the end of that line (separated by a `:` character), otherwise add the line `export PATH=$PATH:/path/you/found/in/step3`
+3. During the install, you will get output like `WARNING: The scripts dx, dx-app-wizard, dx-build-app and dx-build-applet are installed in '/home/yourusername/.local/bin' which is not on PATH.` Copy this location so you can add it to your PATH.
+4. Edit the file `~/.bashrc` to add the location from step 3 to your PATH. If there's already a line in your .bashrc that sets PATH, add the new location to the end of that line (separated by a `:` character), otherwise add the line `export PATH=$PATH:/path/you/found/in/step3/`
 5. Run `source ~/.bashrc` to reload your .bashrc so the changes you made in step 4 will take effect immediately.
 
 To install the command line tools on a Linux computer where you have root access (such as a laptop/desktop):
 1. You can either install locally under your user account using steps 2-5 above, or you can install system-wide with `pip3 install dxpy` (the --user flag is what makes it install to the home directory in the previous instructions)
 2. Find where it installed and add it to your PATH
-Details will vary by distribution - the main thing is to make sure you have Python3 installed.
+Details will vary by distribution, but if you're using Linux on a laptop/desktop you probably know more about your specific distro than I do ;-)
 
 ### Installing the command line tools on Windows
 
