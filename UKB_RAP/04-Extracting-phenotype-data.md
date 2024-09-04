@@ -18,7 +18,9 @@ FIXME: Add this
 4. Run a Table Exporter job using the following command: `dx run table-exporter --destination /path/for/output/ -idataset_or_cohort_or_dashboard=record-abc123 -ioutput=output_file_start -ioutput_format=TSV -icoding_option=RAW -iheader_style=FIELD-NAME -ientity=participant -ifield_names_file_txt=extract-vars.txt
 `
    * FIXME: Add dx run options to run the job with the cheapest possible instance and priority
-   * `--destination` says where to output your extracted data. It can be project-abc123:/ for the /  directory of your project, or something else like /extracted_data if you have already created a folder named "extracted_data" in your project. Including the `project-abc123:` part is optional in most circumstances, you can just write `/extracted_data/`. You can also leave out the `--destination` option entirely if you use `dx cd` to get to your desired output directory before you submit your job.
+   * `--destination` says where to output your extracted data. It can be `project-abc123:/` for the /  directory of your project, or something else like `/extracted_data/` if you have created a folder named "extracted_data" in your project and want to put your data there.
+     * Including the `project-abc123:` part is optional in most circumstances, you can just write `/extracted_data/`.
+     * You can also leave out the `--destination` option entirely if you use `dx cd` to get to your desired output directory before you submit your job.
    * `-ioutput=output_file_start` is the first part of your filename (before the .tsv). So `-ioutput=test` would lead to the creation of a file test.tsv
    * `-ifield_names_file_txt=extract-vars.txt` should point to the file with the list of variables to extract.
    * When an option begins with `-i`, that option is passed to the Table Exporter app, eg. `-ioutput_format=TSV` passes Table Exporter the option `output_format=TSV`. When an option doesn't begin with `-i` (like `--destination`) then it as option to the `dx run` command and not the Table Exporter app itself.
